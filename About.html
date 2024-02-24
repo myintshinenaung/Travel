@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome for icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/beach-icon-19.jpg">
+</head>
+
+<body>
+    <!-- nav-section -->
+    <nav class="flex justify-between items-center border border-solid border-white sm:px-60 py-3 bg-white px-6">
+        <span class="text-4xl font-medium cursor-pointer">Travelers</span>
+        <div class="sm:hidden burger cursor-pointer">
+            <i class="fa fa-burger "></i>
+        </div>
+        <div class="hidden sm:block">
+            <ul class="flex gap-7 text-gray-500">
+                <li class="text-red-600"><a href="index.html">Home</a></li>
+                <li><a href="Destinations.html">Destinations</a></li>
+                <li><a href="Discount.html">Discount</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="hidden sm:block">
+            <ul class="flex gap-7 ">
+                <li class="cursor-pointer"><i class="fa-brands fa-discord"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- mobile-nav -->
+    <nav class="sm:hidden bg-gray-300 h-screen mobile-nav transition duration-300 absolute w-4/5 ">
+        <div>
+            <ul class="text-left pl-9 text-xl pt-6">
+                <li class="text-red-600 py-5 tracking-widest"><a href="index.html">Home</a></li>
+                <li class="pb-5 tracking-widest"><a href="Destinations.html">Destinations</a></li>
+                <li class="pb-5 tracking-widest"><a href="Discount.html">Discount</a></li>
+                <li class="pb-5 tracking-widest"><a href="About.html">About</a></li>
+                <li class="pb-5 tracking-widest"><a href="Blog.html">Blog</a></li>
+                <li class="pb-5 tracking-widest"><a href="Contact.html">Contact</a></li>
+    
+            </ul>
+        </div>
+        <div class="sm:hidden pt-12 text-2xl">
+            <ul class=" flex gap-10 justify-center">
+                <li class="cursor-pointer"><i class="fa-brands fa-discord"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- About -->
+    <div class="w-full h-screen sm:h-1/2 bg-cover bg-fixed"
+        style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(images/hero_bg_2.jpg.webp);">
+        <div class="text-center py-48">
+            <h1 class="sm:text-5xl text-3xl text-white pb-5">ABOUT TRAVELERS</h1>
+            <a class="text-red-500 font-thin" href="index.html">Home</a><span> </span><i
+                class="fa-solid fa-heart text-white"></i><span> </span><small
+                class="text-base text-white font-thin">About</small>
+        </div>
+    </div>
+    <section class="sm:py-20 pt-6 px-6 sm:px-0">
+        <div class="flex sm:px-60 gap-16 flex-wrap sm:flex-nowrap">
+            <div class="w-full">
+                <img src="images/hero_bg_2.jpg.webp" alt="">
+            </div>
+            <div class="">
+                <h2 class="text-3xl pb-6">About Company</h2>
+                <p class="pb-6 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore dolorum, autem quidem eum blanditiis inventore? Dolorum ex incidunt asperiores debitis, non assumenda veniam mollitia voluptates? </p>
+                <ul class="text-gray-600">
+                    <li><i class="fa-solid fa-check text-red-500"></i>&nbsp;&nbsp;&nbsp;Vitae cumque eius modi expedita</li>
+                    <li><i class="fa-solid fa-check text-red-500"></i>&nbsp;&nbsp;&nbsp;Totam at maxime Accusantium</li>
+                    <li><i class="fa-solid fa-check text-red-500"></i>&nbsp;&nbsp;&nbsp;Distinctio temporibus</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Our Team -->
+    <section class="sm:px-60 pt-20 sm:pt-0 px-6 pb-32">
+        <h2 class="text-3xl text-center pb-16">Our Team</h2>
+        <div class="flex gap-10 items-center flex-wrap sm:flex-nowrap">
+            <article class="w-full text-center">
+                <img class="border border-solid border-black rounded-full w-1/2 mx-auto " src="images/person_1.jpg.webp" alt="">
+                <h3 class="text-3xl py-3">Jean McMiller</h3>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facere dolor! Commodi saepe dolore modi quisquam nostrum voluptatem minus veniam.</p>
+                <div>
+                    <ul class="text-red-500 flex gap-6 justify-center pt-6">
+                        <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                        <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="w-full text-center">
+                <img class="border border-solid border-black rounded-full w-1/2 mx-auto " src="images/person_2.jpg.webp" alt="">
+                <h3 class="text-3xl py-3">Jean McMiller</h3>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facere dolor! Commodi
+                    saepe dolore modi quisquam nostrum voluptatem minus veniam.</p>
+                <div>
+                    <ul class="text-red-500 flex gap-6 justify-center pt-6">
+                        <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                        <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="w-full text-center">
+                <img class="border border-solid border-black rounded-full w-1/2 mx-auto " src="images/person_4.jpg.webp" alt="">
+                <h3 class="text-3xl py-3">Jean McMiller</h3>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, facere dolor! Commodi
+                    saepe dolore modi quisquam nostrum voluptatem minus veniam.</p>
+                <div>
+                    <ul class="text-red-500 flex gap-6 justify-center pt-6">
+                        <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                        <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- What People Says -->
+    <section class="sm:px-60 sm:pb-28 bg-gray-100 ">
+        <h2 class="text-center text-3xl pb-16 pt-12">What People Says</h2>
+        <div class="flex items-center flex-col sm:flex-row">
+            <img class="sm:w-[50%] px-6 sm:px-0 " src="images/img_5.jpg" alt="">
+            <div
+                class="border border-solid border-white bg-white sm:w-[45%] sm:py-8 sm:px-10 sm:translate-x-[-60px] px-6 pt-12 sm:pt-0">
+                <p class="leading-8 text-xl text-gray-600  sm:py-6 pb-6">"Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    In corporis molestiae quis beatae natus delectus cumque laboriosam distinctio deleniti, dolorum ipsa
+                    expedita modi nesciunt nam odit quia ullam cum id."</p>
+                <i>-James Martin,<span class="text-red-600">Travele</span> </i>
+            </div>
+        </div>
+    </section>
+    <!-- Want to Travel -->
+    <div class="text-center py-16">
+        <h2 class="text-3xl pb-10">Want To Travel With Us?</h2>
+        <button
+            class="border  py-3 px-7 bg-red-500 text-white font-medium  hover:bg-transparent hover:border-black hover:text-black transition duration-300"
+            type="button">Book Now</button>
+    </div>
+    <!-- Footer -->
+    <footer class="sm:px-60 bg-gray-800 pt-12">
+        <div class="flex gap-16 justify-between flex-col sm:flex-row px-6 sm:px-0">
+            <div class=" w-full">
+                <h2 class="text-xl text-white pb-6">About Travelers</h2>
+                <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium architecto
+                    placeat neque, iusto porro laboriosam minima consequatur sapiente, libero reiciendis quas magnam
+                    perspiciatis sit corporis odio ad quasi amet modi.</p>
+            </div>
+            <div class="w-full">
+                <h2 class="text-xl text-white  pb-6">Navigations</h2>
+                <div class="flex sm:gap-20 flex-col sm:flex-row">
+                    <ul class="text-gray-500">
+                        <li>Home</li>
+                        <li>Destination</li>
+                        <li>Service</li>
+                        <li>About</li>
+                    </ul>
+                    <ul class="text-gray-500">
+                        <li>About Us</li>
+                        <li>Privacy Policy</li>
+                        <li>Contact Us</li>
+                        <li>Discounts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full">
+                <h2 class="text-white text-xl  pb-6">Subscribe Newsletter</h2>
+                <p class="text-gray-500  pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, maiores ipsa!
+                </p>
+                <input class="sm:px-7 px-10 py-1 text-gray-500 bg-transparent border border-gray-500 outline-0" type="email"
+                    value="" id="email" placeholder="Enter Email">
+                <button class="border border-red-500 py-1 px-2 bg-red-500 text-white  " type="submit">Send</button>
+            </div>
+        </div>
+        <div class="text-center py-28">
+            <div class="pb-10">
+                <ul class="flex justify-center gap-10 text-gray-500">
+                    <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                    <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="cursor-pointer"><i class="fa-solid fa-circle-info"></i></li>
+                </ul>
+            </div>
+            <p class="text-gray-500">Copyright &#169 2023 All rights reserved | This template is made with <i
+                    class="fa fa-heart"></i> by Colorlib</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+    </body>
+    
+    </html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome for icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/beach-icon-19.jpg">
+</head>
+
+<body>
+    <!-- nav-section -->
+    <nav class="flex justify-between items-center border border-solid border-white sm:px-60 py-3 bg-white px-6">
+        <span class="text-4xl font-medium cursor-pointer">Travelers</span>
+        <div class="sm:hidden burger cursor-pointer">
+            <i class="fa fa-burger "></i>
+        </div>
+        <div class="hidden sm:block">
+            <ul class="flex gap-7 text-gray-500">
+                <li class="text-red-600"><a href="index.html">Home</a></li>
+                <li><a href="Destinations.html">Destinations</a></li>
+                <li><a href="Discount.html">Discount</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="hidden sm:block">
+            <ul class="flex gap-7 ">
+                <li class="cursor-pointer"><i class="fa-brands fa-discord"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- mobile-nav -->
+    <nav class="sm:hidden bg-gray-300 h-screen mobile-nav transition duration-300 absolute w-4/5 ">
+        <div>
+            <ul class="text-left pl-9 text-xl pt-6">
+                <li class="text-red-600 py-5 tracking-widest"><a href="index.html">Home</a></li>
+                <li class="pb-5 tracking-widest"><a href="Destinations.html">Destinations</a></li>
+                <li class="pb-5 tracking-widest"><a href="Discount.html">Discount</a></li>
+                <li class="pb-5 tracking-widest"><a href="About.html">About</a></li>
+                <li class="pb-5 tracking-widest"><a href="Blog.html">Blog</a></li>
+                <li class="pb-5 tracking-widest"><a href="Contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="sm:hidden pt-12 text-2xl">
+            <ul class=" flex gap-10 justify-center">
+                <li class="cursor-pointer"><i class="fa-brands fa-discord"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Blog -->
+    <div class="w-full h-screen sm:h-1/2  bg-cover bg-fixed bg-center"
+        style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(images/hero_bg_2.jpg.webp);">
+        <div class="text-center sm:py-48 py-72">
+            <h1 class="sm:text-6xl text-3xl text-white pb-6 ">GET IN TOUCH</h1>
+            <a class="text-red-500 font-thin" href="index.html">Home</a><span> </span><i
+                class="fa-solid fa-heart text-white"></i><span> </span><small
+                class="text-base text-white font-thin">Contact</small>
+        </div>
+    </div>
+    <section class="sm:px-60 bg-gray-100 pt-20 pb-24 px-6">
+        <div class="flex gap-10 flex-wrap sm:flex-nowrap">
+        <div class="border border-none border-black w-full h-full px-10 bg-white">
+        <div class="flex sm:gap-20 gap-5 pt-10 flex-wrap sm:flex-nowrap">
+            <div>
+                <label for="name">First Name</label><br>
+                <input class="border border-solid border-gray-300 " type="text" name="firstname" id="name">
+            </div>
+            <div>
+                <label for="lastname">First Name</label><br>
+                <input class="border border-solid border-gray-300 " type="text" name="firstname" id="lastname">
+            </div>
+        </div>
+        <div class="py-5">
+            <label for="mail">Email</label><br>
+            <input class="border border-solid border-gray-300 w-full" type="email" name="email" id="mail">
+        </div>
+        <div>
+            <label for="text">Subject</label><br>
+            <input class="border border-solid border-gray-300 w-full" type="text" name="text" id="text">
+        </div>
+        <div class="py-5">
+            <label  for="message">Message</label><br>
+            <textarea class="border border-gray-300" name="text" id="message" sm:cols="59" cols="33" sm:rows="5" rows="6" placeholder=" Write your notes questions here..."></textarea>
+        </div>
+        <div class="pb-10"> 
+        <button
+            class="border border-red-500 py-3 mt-10 px-10 bg-red-500 text-white font-medium hover:bg-transparent hover:border-white transition duration-300"
+            type="button">Book Now!</button>
+            </div>
+        </div>
+        <!-- address -->
+        <div class="border border-none w-full bg-white px-10">
+            <div class="py-6">
+            <h2 class="font-bold">Address</h2>
+            <p class="text-gray-500">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div class="pb-6">
+            <h2 class="font-bold">Phone</h2>
+            <a href="#">+123456789</a>
+            </div>
+            <div class="pb-10">
+            <h2>Email Address</h2>
+            <a href="#">youremail@domain.com</a>
+            </div>
+            <img src="images/hero_bg_1.jpg.webp" alt="">
+            <div class="pt-5">
+            <h2 class="pb-2 text-lg font-bold">More info</h2>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores omnis eligendi facere iusto, ab itaque, ducimus praesentium sit quisquam dolore, optio provident repellat numquam architecto cum delectus sint fugiat laudantium officia. Sint atque suscipit mollitia! Beatae nam corrupti magni molestias?</p>
+            <div class="pb-10">
+                <button
+                    class="border border-red-500 py-3 mt-10 px-10 bg-red-500 text-white font-medium hover:bg-transparent hover:border-white transition duration-300"
+                    type="button">Book Now!</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="sm:px-60 bg-gray-800 pt-12">
+        <div class="flex gap-16 justify-between flex-col sm:flex-row px-6 sm:px-0">
+            <div class=" w-full">
+                <h2 class="text-xl text-white pb-6">About Travelers</h2>
+                <p class="text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium architecto
+                    placeat neque, iusto porro laboriosam minima consequatur sapiente, libero reiciendis quas magnam
+                    perspiciatis sit corporis odio ad quasi amet modi.</p>
+            </div>
+            <div class="w-full">
+                <h2 class="text-xl text-white  pb-6">Navigations</h2>
+                <div class="flex sm:gap-20 flex-col sm:flex-row">
+                    <ul class="text-gray-500">
+                        <li>Home</li>
+                        <li>Destination</li>
+                        <li>Service</li>
+                        <li>About</li>
+                    </ul>
+                    <ul class="text-gray-500">
+                        <li>About Us</li>
+                        <li>Privacy Policy</li>
+                        <li>Contact Us</li>
+                        <li>Discounts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full">
+                <h2 class="text-white text-xl  pb-6">Subscribe Newsletter</h2>
+                <p class="text-gray-500  pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, maiores ipsa!
+                </p>
+                <input class="sm:px-7 px-10 py-1 text-gray-500 bg-transparent border border-gray-500 outline-0" type="email"
+                    value="" id="email" placeholder="Enter Email">
+                <button class="border border-red-500 py-1 px-2 bg-red-500 text-white  " type="submit">Send</button>
+            </div>
+        </div>
+        <div class="text-center py-28">
+            <div class="pb-10">
+                <ul class="flex justify-center gap-10 text-gray-500">
+                    <li class="cursor-pointer"><i class="fa-brands fa-facebook-f"></i></li>
+                    <li class="cursor-pointer"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="cursor-pointer"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="cursor-pointer"><i class="fa-solid fa-circle-info"></i></li>
+                </ul>
+            </div>
+            <p class="text-gray-500">Copyright &#169 2023 All rights reserved | This template is made with <i
+                    class="fa fa-heart"></i> by Colorlib</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    </body>
+    
+    </html>
